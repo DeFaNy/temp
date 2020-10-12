@@ -94,7 +94,7 @@ class Account {
       extraHeaders: {
         Host: "weomate.ru:82",
         Origin: "https://weomate.ru",
-        "User-Agent": "Mozilla / 5.0( Linux; Android 6.0 .1; FESF - Tgsefse34 Build / MMB29K; wv ) AppleWebKit / 537.36( KHTML, like Gecko ) Version / 4.0 Chrome / 85.0 .4183 .127"
+        "User-Agent": "Mozilla / 5.0( Linux; Android 6.0 .1; FESF - Tgsefsa34 Build / MMB29K; wv ) AppleWebKit / 537.36( KHTML, like Gecko ) Version / 4.0 Chrome / 85.0 .4183 .127"
       }
     });
 
