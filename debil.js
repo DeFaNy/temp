@@ -2,10 +2,10 @@ let io = require('socket.io-client')
 
 const max_top_position = 1;
 
-const pause_before_disconnect = 1e3;
-const pause_before_reconnect = 6e3;
+const pause_before_disconnect = 5e3;
+const pause_before_reconnect = 8e3;
 
-const pause_before_next_ad = [6e3, 9e3];
+const pause_before_next_ad = [15e3, 20e3];
 
 const should_buy_eye = false;
 
