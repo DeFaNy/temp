@@ -132,7 +132,8 @@ class Account {
     });
 
     this.socket.on('top_position', (data) => {
-      this.socket.emit('my_top_position', data);
+      var o = Date.now() / 1e5 * 123 + "b";
+      this.socket.emit("my_top_position", o, Date.now());
       this.topPlace = data;
       if (this.topPlace && this.topPlace <= max_top_position) {
         console.log(this.name, 'Достиг лимит топа');
